@@ -1,4 +1,43 @@
 body {
     font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-card {
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.img-container {
+    margin-bottom: 24px;
+}
+
+.qr-code-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.main-title {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin: 0;
+}
+
+.description {
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    margin-top: 16px;
+}
+
+.main-title, .description {
+    padding: 0 16px;
 }
